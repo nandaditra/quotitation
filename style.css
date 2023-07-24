@@ -17,9 +17,40 @@ p {
 .content {
     position: relative;
     margin:auto;
-    width:41.5%;
+    width:80%;
     height: 950px;
-    border: #3AB54A solid 2px;
+}
+
+.bg-content {
+    position: relative;
+    margin:auto;
+    width:52%;
+    height: 950px;
+    border: black solid 1px;
+}
+
+.img {
+    background-image: url("bg-quotitation.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: bottom;
+    bottom:0;
+}
+
+.img-pg-9 {
+    background-image: url("bg-page-9.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: bottom;
+    bottom:0;
+}
+
+.motto-company {
+    margin-top:3.8em;
+    margin-left:8px;
+    font-size: 30px;
+    font-weight: 500;
+    color:#3AB54A;
 }
 
 .list-of-title-paragraph {
@@ -44,7 +75,6 @@ p {
     margin-bottom: 0;
 }
 
-
 .list-of-title {
     font-weight: bold;
 }
@@ -53,6 +83,17 @@ p {
     counter-increment: section;
     content: "" counter(section) ")  ";
     padding-right: 10px;
+}
+
+.list-pg {
+    margin:13px 0px;
+}
+
+.list-pg-2 {
+    padding-right: 15px;
+    padding-bottom:10px;
+    float:left;
+    font-weight: bold;
 }
 
 ol {
@@ -66,20 +107,38 @@ li {
 
 .title-page {
     margin-top:0;
-    margin-left: 1.5%;
+    margin-left: 0.6%;
     margin-bottom: 0;
-    font-size: 24px;
+    padding-right: 3em;
+    font-size: 30px;
     font-weight: 500;
     color:#3AB54A;
 }
 
 .logo-company{
     width:27.5%;
-    padding:25px 15px 35px 15px;
+    padding:25px 0px 35px 5px;
 }
 
 .list-companies-profile {
-    width:100%;
+    margin-top:10px;
+    width:97%;
+}
+
+.author-profile {
+    padding:5px;
+    text-overflow: auto;
+}
+
+.author-quotes {
+    padding-top:25px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.section-author {
+    margin-top:9px;
+    margin-bottom:45px;
 }
 
 table {
@@ -94,6 +153,11 @@ table td {
 }
 table tr {
     background-color: #F3F3F3;
+}
+
+.title-author {
+    margin:0;
+    color:#3AB54A;
 }
 
 .title-table {
@@ -124,9 +188,13 @@ table tr {
     font-weight: normal;
 }
 
+.text-little {
+    font-size: 12px;
+}
+
 .footer-page {
     position: absolute;
-    padding-bottom:0px;
+    padding-bottom:15px;
     bottom:0px;
 }
 
@@ -143,3 +211,51 @@ table tr {
     list-style-type: none;
 }
 
+.row {
+    margin-top:0.5em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.content-advantage {
+    margin-top:3em;   
+}
+
+.col-6 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.col-6 img {
+    margin:auto;
+    float: left;
+    width: 12.5%;
+}
+
+.col-6 p {
+    padding:0px 45px 10px 45px;
+}
+
+.sub-advantages {
+    margin-top:0px;
+    margin-bottom: 0px;
+    text-overflow: auto;
+}
+
+.sub-advantages img{
+    float: left;
+    padding:9.5px;
+}
+
+.sub-advantages p {
+    padding-top: 7px;
+    padding-right: 55px;
+    font-size: 12px;
+}
+
+.img-author {
+    width: 11%;
+    float: left;
+    padding: 0px 10px;
+}
