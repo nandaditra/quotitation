@@ -26,11 +26,10 @@ p {
     margin:auto;
     width:52%;
     height: 950px;
-    border: black solid 1px;
 }
 
 .img {
-    background-image: url("bg-quotitation.png");
+    background-image: url("img/bg-quotitation.png");
     background-repeat:no-repeat;
     background-size:contain;
     background-position: bottom;
@@ -38,7 +37,7 @@ p {
 }
 
 .img-pg-9 {
-    background-image: url("bg-page-9.png");
+    background-image: url("img/bg-page-9.png");
     background-repeat:no-repeat;
     background-size:contain;
     background-position: bottom;
