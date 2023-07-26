@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap');
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 135vh;
+    font-family: 'Barlow', sans-serif;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.content {
+    position: absolute;
+    top: 4vh;
+    left: 40vh;
+    z-index: 5;
+}
+
+.navigation {
+    height: 100vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+
+.description {
+    font-size: 8vh;
+    margin-top: 55vh;
+    color: white;
+    margin-bottom: 1vh;
+}
+
+.custom-line {
+    border-top: 1vh solid #3AB54A;
+    width: 50vh;
+    margin-block-end: 0%;
+}
+
+.description1 {
+    font-size: 4vh;
+    color: white;
+    margin-top: 1vh;
+}
+
+.navigation1 {
+    margin-left: 40vh;
+    margin-bottom: 0;
+    margin-right: 40vh;
+    font-weight: bold;
+}
+
+.description2 {
+    font-size: 2vh;
+}
+
+.description3 {
+    font-size: 6vh;
+    margin-top: 0;
+}
+
+.description4,
+.description5 {
+    font-size: 3vh;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.description6 {
+    font-size: 2vh;
+}
+
+/* File 2 */
+.hero-container {
+
+    width: 80%;
+    height: 135vh;
+    font-family: 'Barlow', sans-serif;
+    margin-left: 50vh;
+    counter-reset: section;
+    overflow: hidden;
+}
+
+.image1 {
+    margin-top: 2vh;
+    width: 300px;
+}
+
+.text {
+    font-size: 100%;
+    margin-bottom: 4vh;
+    margin-right: 55vh;
+}
+
+.text1 {
+    font-size: 130%;
+    margin-right: 55vh;
+}
+
+.text2 {
+    text-align: right;
+    margin-right: 55vh;
+    font-size: 130%;
+
+}
+
+.text3 {
+    font-size: 130%;
+    margin-right: 55vh;
+}
+
+.text4 {
+    font-size: 130%;
+    margin-right: 55vh;
+    text-align: right;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
+.text5 {
+    font-size: 130%;
+    margin-top: 4vh;
+}
+
+.image2 {
+    margin-top: 1vh;
+    width: 200px;
+}
+
+.image3 {
+    width: 20px;
+    margin-top: 3vh;
+
+}
+
+/* File 3*/
+.body {
+    width: 80%;
+    height: 135vh;
+    font-family: 'Barlow', sans-serif;
+    margin-left: 50vh;
+    counter-reset: section;
+}
+
+table {
+    margin: 1.5em 0em;
+    text-align: center;
+    padding-left: 0;
+    border-spacing: 3.5px;
+}
+
+table td {
+    padding: 2px 4px;
+    font-size: 150%;
+}
+
+table tr {
+    background-color: #F3F3F3;
+}
+
+.title-table {
+    background-color: #3AB54A;
+    color: #fff;
+    text-align: center;
+}
+
+.text6 {
+    font-size: 300%;
+    margin-top: 6vh;
+    color: #3AB54A;
+}
+
+.text7 {
+    font-size: 250%;
+}
+
+/* file 4*/
+.textbody {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+
+
+.text8 {
+    font-size: 300%;
+    margin-right: 10vh;
+
+}
+
+.text9 {
+    font-size: 200%;
+}
